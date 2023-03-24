@@ -1,0 +1,96 @@
+body {
+  background-color: #f8fafd;
+  font-family: "Inter", sans-serif;
+  color: #252525;
+  padding: 2rem;
+
+  main {
+    max-width: 780px;
+    margin: 0 auto;
+
+    .hero {
+      text-align: center;
+      padding-bottom: 3rem;
+
+      .title {
+        font-size: 2rem;
+        font-weight: bold;
+        padding-bottom: 1.5rem;
+      }
+
+      .subtitle {
+        font-size: 1.125rem;
+        color: #828282;
+      }
+    }
+
+    .box {
+      background: #ffffff;
+      box-shadow: 0 1px 2px rgba(132, 148, 165, 0.9);
+      border-radius: 9px;
+      margin-bottom: 3rem;
+
+      .password {
+        display: flex;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        .text {
+          flex: 1;
+          #password {
+            font-family: "Inconsolata", monospace;
+            font-size: 3rem;
+            border: none;
+            outline: none;
+            cursor: default;
+            height: 52px;
+            width: 100%;
+            transition: all 0.2s;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
+        }
+
+        .actions {
+          button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+          }
+        }
+      }
+
+      .security-indicator {
+        height: 10px;
+        background-color: #ddd;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+
+        .bar {
+          height: 10px;
+          border-top-right-radius: 8px;
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+
+          transition: all 0.2s;
+        }
+
+        .completed {
+          border-top-right-radius: 0px;
+        }
+        .critical {
+          background-color: #eb5757;
+        }
+        .warning {
+          background-color: #f2c94c;
+        }
+        .safe {
+          background-color: #27ae60;
+        }
+      }
+    }
+  }
+}
