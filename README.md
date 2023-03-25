@@ -17,14 +17,18 @@ Projeto desenvolvido no curso Dominando o React na plataforma do Dev Samurai.
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-###
+<br>
+
+<p align="center">
+  <img alt="God of War Ragnarök" src=".github/preview.jpg" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 ---
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
-- SASS
+- Sass
 - JavaScript
 
 ## 💻 Projeto
